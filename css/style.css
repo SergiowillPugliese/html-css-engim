@@ -1,0 +1,68 @@
+* {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p, li, h1, h2, h3 {
+    color: #2a2a2b;
+}
+
+/* style header */
+header {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: unset;
+    object-fit: cover;
+}
+
+.navbar-header nav ul {
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+
+li.nav-item {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    max-width: 110px;
+}
+
+.img-header {
+    position: relative;
+}
+
+.img-header img {
+    width: 100%;
+}
+
+.img-header .title {
+    position: absolute;
+    top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.img-header .title h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    letter-spacing: 20px;
+}
