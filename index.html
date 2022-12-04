@@ -5,51 +5,40 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <title>Il mio sito</title>
 </head>
 
 <body>
+    
     <div class="container">
         <!-- header -->
         <header>
-            <!-- navbar -->
-            <div class="navbar-header">
-                <nav>
-                    <ul>
-                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Chi sono</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Competenze</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Interessi</a></li>
-                        <li class="nav-item"><a href="contatti.html" class="nav-link">Contatti</a></li>
-                    </ul>
-                </nav>
-            </div>
             <!-- immagine di header -->
             <div class="img-header">
                 <img src="files/immagini/html-css-banner.png" alt="immagine-header">
-                <div class="title"><h1>HTML & CSS</h1></div>
+                <div class="title">
+                    <h1>Hello world!</h1>
+                </div>
             </div>
         </header>
 
         <!-- introduzione prgetto e obiettivi da raggiungere durante il modulo html-css e dopo -->
-        <section id="content-wrapper">
+        <div id="content-wrapper">
 
-            <!-- titolo principale della pagina-->
-            <section class="title">
-                <div class="title-header">
-                    <h2>Prima di partire per un lungo viaggio...</h2>
+            <section id="presentazione">
+                <!-- titolo principale della pagina-->
+                <div class="title">
+                    <h2>Prima di iniziare, mi presento...</h2>
                 </div>
-            </section>
 
-            <!-- contenuto della pagina -->
-            <section class="content">
-
-                <!-- sezione presentazione personale-->
-                <div class="presentazione">
-                    <h3>Mi presento...</h3>
+                <!-- contenuto della pagina -->
+                <div class="content">
+                    <!-- sezione presentazione personale-->
                     <p>Mi chiamo Sergio Pugliese e vi aiuterò a muovere i vostri primi passi nell'html e css
                         Insieme, vedremo che cosa sono, vedremo un po' di bootstrap e wordPress.
                     </p>
@@ -78,43 +67,68 @@
                         adesso, occupate voi.
                     </p>
                 </div>
+            </section>
 
-                <!-- descrizione delle attività che andremo a fare insieme -->
-                <div class="programma">
+            <!-- descrizione delle attività che andremo a fare insieme -->
+            <section id="programma">
+                <div class="sub-title">
                     <h3>Iniziamo...</h3>
+                </div>
+                <div class="content">
                     <p>
                         Vi spiego un po' le cose che mi piacerebbe fare insieme a voi:
                     </p>
                     <p>
-                        L'idea principale è sicuramente quella di trasmettervi il più possibile, ma ho anche pensato a quello che potrebbe essere un modo 
-                        per rendere il tutto divertente e che metta tutti voi nella condizione di realizzare qualcosa fin da subito. <br>
-                        Ho quindi creato questo sito che andremo ad ampliare passo dopo passo con vari contenuti, in modo che alla fine del nostro percorso
-                        isieme, abbiate una bella base che potrete ampliare e trasformare con i vari linguaggi di programmazione che affronteretencon gli altri docenti. 
-                    </p>
-                    <h3>Cosa sarà questo sito???</h3>
-                    <p>
-                        Il progetto che faremo tutti insieme è quello di creare un sito che racchiuda tutto quello che vi riguarda come persone e come futuri programmatori. <br>
-                        <ul>
-                            <li>Ci sarà una sezione dove parlerete di voi, di chi eravate, chi siete e chi volete essere</li>
-                            <li>Molti recruiter chiedono i vostri interessi nel tempo libero. Anche quelli che non centrano nulla con la programmazione</li>
-                            <li>Una sezione che tratti della vostra formazione e delle competenze.</li>
-                            <li>Una pagina di contatto con i vostri dati.</li>
-                        </ul>
+                        L'idea principale è sicuramente quella di trasmettervi il più possibile, ma ho anche pensato a
+                        quello che potrebbe essere un modo
+                        per rendere il tutto divertente e che metta tutti voi nella condizione di realizzare qualcosa
+                        fin da
+                        subito. <br>
+                        Ho quindi creato questo sito che andremo ad ampliare passo dopo passo con vari contenuti, in
+                        modo
+                        che alla fine del nostro percorso
+                        isieme, abbiate una bella base che potrete ampliare e trasformare con i vari linguaggi di
+                        programmazione che affronteretencon gli altri docenti.
                     </p>
                 </div>
             </section>
-        </section>
+
+            <section id="cosa-facciamo">
+                <div class="sub-title">
+                    <h3>Cosa sarà questo sito???</h3>
+                </div>
+                <div class="content">
+
+                    <p>
+                        Il progetto che faremo tutti insieme è quello di creare un sito che racchiuda tutto quello che
+                        vi
+                        riguarda come persone e come futuri programmatori. <br>
+                    <ul>
+                        <li>Ci sarà una sezione dove parlerete di voi, di chi eravate, chi siete e chi volete essere
+                        </li>
+                        <li>Molti recruiter chiedono i vostri interessi nel tempo libero. Anche quelli che non centrano
+                            nulla con la programmazione</li>
+                        <li>Una sezione che tratti della vostra formazione e delle competenze.</li>
+                        <li>Una pagina di contatto con i vostri dati.</li>
+                    </ul>
+                    </p>
+                </div>
+
+                <div style="width: fit-content; margin: auto;">
+                    <a href="page.html" style="padding: 20px 40px; text-align: center; text-decoration: none; text-transform: uppercase; color: #fff; font-weight: 700; background: #2a2a2b; border: 1px solid #2a2a2b; border-radius: 20px;">Iniziamo</a>
+                </div>
+            </section>
+
+        </div>
 
         <!-- footer -->
-        <footer></footer>
+        <footer>
+            <div class="title">
+                <h2>footer...</h2>
+                <p>mi inventerò qualcosa da metterci... XD</p>
+            </div>
+        </footer>
     </div>
-
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
