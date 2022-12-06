@@ -2,3 +2,15 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+* {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+p, li, h1, h2, h3 {
+  color: #2a2a2b;
+}
